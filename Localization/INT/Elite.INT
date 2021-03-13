@@ -1,0 +1,29 @@
+[ChatMessages]
+Welcome=Welcome to Comp Mod!
+
+[EliteWeapon_Warbow]
+WeaponName=Warbow
+
+[EliteWeapon_Longbow]
+WeaponName=Longbow
+
+[EliteWeapon_Shortbow]
+WeaponName=Shortbow
+
+[EliteWeapon_HeavyCrossbow]
+WeaponName=Heavy Crossbow
+
+[EliteWeapon_LightCrossbow]
+WeaponName=Light Crossbow
+
+[EliteWeapon_Crossbow]
+WeaponName=Crossbow
+
+[EliteWeapon_HeavyCrossbow]
+WeaponName=Heavy Crossbow
+
+[EliteWeapon_Sling]
+WeaponName=Sling
+
+[EliteWeapon_ProjWarbowArrow]
+WeaponName=Warbow Arrow

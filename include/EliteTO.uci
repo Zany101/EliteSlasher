@@ -1,0 +1,7 @@
+`define GAMEMODE EliteTO
+
+DefaultProperties
+{
+MinimumRespawnTime = 10.0
+
+}
