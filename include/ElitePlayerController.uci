@@ -297,3 +297,26 @@ reliable server function S_AdminSetServerPassword(optional string Password) {
 
     S_AdminBroadcastMessage("AdminSetServerPassword");
 }
+
+// God Mode
+
+exec function AdminGodMode(bool bEnabled) {
+    S_AdminGodMode(bEnabled);
+}
+
+reliable server function S_AdminGodMode(bool bEnabled) {
+    if (!IsAdmin()) {
+        ClientDisplayConsoleMessage("You are not logged in as an administrator on this server.");
+        return;
+    }
+    if ( bGodMode )
+    {
+        bGodMode = false;
+        ClientMessage("God mode off");
+        return;
+    }
+
+    bGodMode = true; 
+
+    S_AdminBroadcastMessage("GodMode");
+}
