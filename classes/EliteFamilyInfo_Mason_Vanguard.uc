@@ -30,10 +30,6 @@ DefaultProperties
 	NewTertiaryWeapons(0)=(CWeapon=class'EliteWeapon_ThrowingAxe')
 	NewTertiaryWeapons(1)=(CWeapon=class'EliteWeapon_ThrowingKnife')
 	NewTertiaryWeapons(2)=(CWeapon=class'EliteWeapon_SmokePot')
-	NewTertiaryWeapons(3)=(CWeapon=class'EliteWeapon_TowerShield_Agatha')
-	NewTertiaryWeapons(4)=(CWeapon=class'EliteWeapon_Heater_Agatha',bEnabledDefault=true)
-	NewTertiaryWeapons(5)=(CWeapon=class'EliteWeapon_Kite_Agatha')
-	NewTertiaryWeapons(6)=(CWeapon=class'EliteWeapon_Buckler_Agatha')
 
 	bCanSprintAttack=false
 

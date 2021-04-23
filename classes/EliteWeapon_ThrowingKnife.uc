@@ -11,8 +11,8 @@ DefaultProperties
 {
 	CurrentWeaponType = EWEP_ThrownKnife
 	// set maximum ammo
-	AmmoCount=4
-	MaxAmmoCount=4
+	AmmoCount=2
+	MaxAmmoCount=2
 	AIRange=5000
 
 	WeaponProjectiles(0)=class'AOCProj_ThrownDagger'

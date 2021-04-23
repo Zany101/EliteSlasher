@@ -4,8 +4,8 @@ DefaultProperties
 {
 	CurrentWeaponType = EWEP_OilPot
 	// set maximum ammo
-	AmmoCount=3
-	MaxAmmoCount=3
+	AmmoCount=1
+	MaxAmmoCount=1
 	AIRange=5000
 
 	WeaponProjectiles(0)=class'AOCProj_ThrownOilPot'
